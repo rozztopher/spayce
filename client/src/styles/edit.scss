@@ -1,0 +1,42 @@
+.edit-spayce-container {
+    position: relative;
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-columns: 0.73fr 0.27fr;
+}
+
+.edit-spayce-canvas {
+    position: relative;
+    width: 100%;
+}
+
+.select-spayce-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.select-spayce-item img {
+    position: relative;
+    width: 100%;
+}
+
+.no-assets-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.no-asset-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    width: 100%;
+}

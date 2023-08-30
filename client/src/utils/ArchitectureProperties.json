@@ -1,0 +1,16 @@
+{
+    "newyork": {
+        "name": "New York",
+        "key": "newyork",
+        "navmesh": "",
+        "pos": "-3 0 -1",
+        "rot": "0 -3 0",
+        "src": "/galleries/newyork.gltf",
+        "thumbnail": "/images/ny.jpg",
+        "price": 0.1,
+        "frames": 10,
+        "rarity": "Cosmic",
+        "available": 20,
+        "supply": 100
+    }
+}

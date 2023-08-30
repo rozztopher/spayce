@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Cube Chair",
+        "image_data": "",
+        "external_url": "",
+        "description": "A trendy cube that can be used as a chair so you can admire your NFTs",
+        "image": "https://gateway.moralisipfs.com/ipfs/QmS5HDuG4C5GD2ZBPXr35pwq79gBYRxK9b7ZogD51fcwCj/chair_cube.png",
+        "attributes": {
+            "type": "interior"
+        },
+        "background_color": "#000000",
+        "animation_url": "https://gateway.moralisipfs.com/ipfs/QmTd84gzwcURc97bku3p53FBYHLMszhvRM5aC9ZT4fnugY/chair_cube.glb",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "3d"
+    },
+    {
+        "name": "Frame",
+        "image_data": "",
+        "external_url": "",
+        "description": "A rectangular frame for your nfts",
+        "image": "https://gateway.moralisipfs.com/ipfs/QmS5HDuG4C5GD2ZBPXr35pwq79gBYRxK9b7ZogD51fcwCj/frame.png",
+        "attributes": {
+            "type": "interior"
+        },
+        "background_color": "#000000",
+        "animation_url": "https://gateway.moralisipfs.com/ipfs/QmTd84gzwcURc97bku3p53FBYHLMszhvRM5aC9ZT4fnugY/frame.glb",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "3d"
+    },
+    {
+        "name": "Limiter",
+        "image_data": "",
+        "external_url": "",
+        "description": "Some construction to separate your most valuable 3d asset",
+        "image": "https://gateway.moralisipfs.com/ipfs/QmS5HDuG4C5GD2ZBPXr35pwq79gBYRxK9b7ZogD51fcwCj/limiter.png",
+        "attributes": {
+            "type": "interior"
+        },
+        "background_color": "#000000",
+        "animation_url": "https://gateway.moralisipfs.com/ipfs/QmTd84gzwcURc97bku3p53FBYHLMszhvRM5aC9ZT4fnugY/limiter.glb",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "3d"
+    },
+    {
+        "name": "Tripod",
+        "image_data": "",
+        "external_url": "",
+        "description": "A tripod stool for you to sit on or place your objects on top of",
+        "image": "https://gateway.moralisipfs.com/ipfs/QmS5HDuG4C5GD2ZBPXr35pwq79gBYRxK9b7ZogD51fcwCj/tripod.png",
+        "attributes": {
+            "type": "interior"
+        },
+        "background_color": "#000000",
+        "animation_url": "https://gateway.moralisipfs.com/ipfs/QmTd84gzwcURc97bku3p53FBYHLMszhvRM5aC9ZT4fnugY/tripod.glb",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "3d"
+    },
+    {
+        "name": "OPM",
+        "image_data": "",
+        "external_url": "",
+        "description": "ONE PUNCH!",
+        "image": "/nfts/saitama.jpg",
+        "attributes": {
+            "type": "image"
+        },
+        "background_color": "#000000",
+        "animation_url": "",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "image"
+    },
+    {
+        "name": "2B",
+        "image_data": "",
+        "external_url": "",
+        "description": "NieR Automata",
+        "image": "/nfts/nier.png",
+        "attributes": {
+            "type": "image"
+        },
+        "background_color": "#000000",
+        "animation_url": "",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "image"
+    },
+    {
+        "name": "Cyberpunk",
+        "image_data": "",
+        "external_url": "",
+        "description": "A futuristic city",
+        "image": "/nfts/cyberpunk.jpg",
+        "attributes": {
+            "type": "image"
+        },
+        "background_color": "#000000",
+        "animation_url": "",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "image"
+    },
+    {
+        "name": "Abstract",
+        "image_data": "",
+        "external_url": "",
+        "description": "A very nice painting",
+        "image": "/nfts/abstract.jpg",
+        "attributes": {
+            "type": "image"
+        },
+        "background_color": "#000000",
+        "animation_url": "",
+        "youtube_url": "",
+        "chain": "mumbai",
+        "type": "image"
+    }
+]

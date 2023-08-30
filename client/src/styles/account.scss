@@ -1,0 +1,22 @@
+.user-action-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 50%;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.12) 0%, rgba(143, 135, 202, 0.102) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.go-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}

@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("./fonts/Poppins-Medium.ttf");
+}
+
+* {
+    font-size: 1rem;
+    font-family: PoppinsRegular;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3.063rem;
+    line-height: 58px;
+    font-family: PoppinsSemiBold;
+}
+
+h2 {
+    font-size: 2.438rem;
+    font-family: PoppinsSemiBold;
+}
+
+h3 {
+    font-size: 1.375rem;
+    font-family: PoppinsSemiBold;
+}
+
+.fs-47 {
+    font-size: 2.938rem;
+}
+
+.fs-45 {
+    font-size: 2.813rem;
+}
+
+.fs-35 {
+    font-size: 2.188rem;
+}
+
+.fs-33 {
+    font-size: 2.063rem;
+}
+
+.fs-28 {
+    font-size: 1.75rem;
+}
+
+.fs-26 {
+    font-size: 1.625rem;
+}
+
+.fs-24 {
+    font-size: 1.5rem;
+}
+
+.fs-20 {
+    font-size: 1.25rem;
+}
+
+.fs-18 {
+    font-size: 1.125rem;
+}
+
+.fs-17 {
+    font-size: 1.063rem;
+}
+
+.fs-15 {
+    font-size: 0.938rem;
+}
+
+.fs-14 {
+    font-size: 0.875rem;
+}
+
+.fs-13 {
+    font-size: 0.813rem;
+}
+
+.fs-12 {
+    font-size: 0.75rem;
+}
+
+.lh-59 {
+    line-height: 3.688rem;
+}
+
+.lh-33 {
+    line-height: 2.063rem;
+}
+
+.lh-31 {
+    line-height: 1.938;
+}
+
+.lh-29 {
+    line-height: 1.813rem;
+}
+
+.lh-26 {
+    line-height: 1.625rem;
+}
+
+.lh-24 {
+    line-height: 1.5rem;
+}
+
+.lh-23 {
+    line-height: 1.438rem;
+}
+
+.lh-16 {
+    line-height: 1rem;
+}
+
+.ls-1o6 {
+    letter-spacing: 0.1rem;
+}
+
+.ls-4o8 {
+    letter-spacing: 0.3rem;
+}
+
+.medium {
+    font-family: PoppinsMedium;
+}
+
+.semi-bold {
+    font-family: PoppinsSemiBold;
+}
+
+.ceil {
+    color: #9995C6;
+}
+
+.ceil-90 {
+    color: #9995C690;
+}
+
+.ceil-60 {
+    color: #9995C660;
+}
+
+.maximum-blue-purple {
+    color: #B0AADD;
+}
+
+.maximum-blue-purple-80 {
+    color: #B0AADD80;
+}
+
+.maximum-blue-purple-75 {
+    color: #B0AADD75;
+}
+
+.maximum-blue-purple-50 {
+    color: #B0AADD50;
+}
+
+.ube-70 {
+    color: #8F87CA70;
+}
+
+.ube-90 {
+    color: #8F87CA90;
+}
+
+.purple {
+    color: #ba04fc;
+}
+
+.ripe-mango {
+    color: #ffbc27;
+}
+
+.infra-red {
+    color: #ef466f;
+}
+
+.ultramarine-blue {
+    color: #3772ff;
+}
+
+.emerald {
+    color: #58bf70;
+}
+
+.white-80 {
+    color: #FFFFFF80;
+}
+
+.lotion {
+    color: #FCFCFD;
+}
+
+.old-lavender {
+    color: #6E6C7D;
+}
+
+.cadet-blue {
+    color: #a7a4bd;
+}
+
+.cadet-blue-60 {
+    color: #a7a4bd60;
+}
+
+.dark-blue-grey {
+    color: #635B96;
+}
+
+.charleston-green {
+    color: #23262f;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.fs-28-ep {
+    font-size: 1.458vw;
+}
+
+.fs-18-ep {
+    font-size: 0.983vw;
+}
+
+.fs-16-ep {
+    font-size: 0.833vw;
+}
+
+.fs-15-ep {
+    font-size: 0.781vw;
+}
+
+.fs-14-ep {
+    font-size: 0.729vw;
+}
+
+.fs-12-ep {
+    font-size: 0.625vw;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.wrap {
+    word-spacing: 100vw;
+}
+
+@media (max-width: 1300px) and (min-width: 481px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 53px;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .lh-33 {
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.063rem;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 2.063rem;
+    }
+
+    .mobile-menu-text {
+        font-size: 1.75rem;
+        font-family: PoppinsSemiBold;
+    }
+}

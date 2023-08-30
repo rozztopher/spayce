@@ -1,0 +1,4 @@
+mobile = 0 -> 479
+tablet = 480 -> 1024
+desktop = 1025 -> 1920
+desktop large = 1921 -> 2560

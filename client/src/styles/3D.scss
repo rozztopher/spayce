@@ -1,0 +1,83 @@
+.holoembed {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    pointer-events: all;
+    box-sizing: border-box;
+    background: linear-gradient(114.28deg, #190445 0%, #370574 100%);
+    backdrop-filter: blur(30px);
+    padding: 5% 5%;
+    font-size: 1.5rem;
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .holo-html {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 27vw;
+    height: 100%;
+  }
+
+  .holo-landscape {
+    width: 1920px;
+    height: 1080px;
+  }
+
+  .holo-portrait {
+    width: 1080px;
+    height: 1920px;
+  }
+
+  .holo-green {
+    background: rgba(73, 134, 108, 0.3);
+    border: 10px solid #54FFB7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f8f8f8;
+  }
+
+  .holo-purple {
+    background: #5D4294;
+    border: 10px solid #5D4294;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f8f8f8;
+  }
+
+  .edit-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .edit-item {
+    position: relative;
+    display: flex;
+    width: 40%;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    background: #FFFFFF90;
+  }
+
+  .control-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 125px;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.162) 0%, rgba(143, 135, 202, 0.099) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    font-size: 32px;
+    user-select: none;
+  }

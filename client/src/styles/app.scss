@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050420;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.app {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    position: relative;
+    width: 100vw;
+}
+
+.app-container {
+    display: flex;
+    position: relative;
+    width: 1170px;
+}
+
+.app-container-fill {
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.bg-elements {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    z-index: -5;
+}
+
+@media (max-width: 1300px) and (min-width: 931px) {
+    .app-container {
+        width: 868px;
+    }
+}
+
+@media (max-width: 930px) and (min-width: 481px) {
+    .app-container {
+        width: 85%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .app {
+        padding-top: 50px;
+    }
+
+    .app-container {
+        width: 92%;
+    }
+}

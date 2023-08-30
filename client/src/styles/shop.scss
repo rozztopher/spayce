@@ -1,0 +1,573 @@
+.shop-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.shop-container h2 {
+    text-align: center;
+}
+
+.shop-header-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.shop-banner {
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    background-size: cover;
+    border-radius: 25px;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(0deg, rgba(5, 4, 32, 0.15), rgba(5, 4, 32, 0.15)),
+        linear-gradient(90deg, rgba(186, 4, 252, 0.7) 0%, rgba(103, 0, 235, 0.7) 55.73%, rgba(103, 0, 235, 0.7) 100%);
+}
+
+.shop-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.shop-banner p {
+    max-width: 66%;
+}
+
+.shop-banner .cta-button {
+    max-width: 16%;
+}
+
+.productRarity-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productRarity-container h2 {
+    text-align: left;
+}
+
+.productRarity-grid {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-auto-rows: 1fr;
+}
+
+.productRarity-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: default;
+}
+
+.productRarity-card .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.05;
+}
+
+.productRarity-chip {
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0rem;
+}
+
+.productRarity-chip-blend {
+    position: relative;
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vh 0.4vw;
+}
+
+.productRarity-chip-blend p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.productRarity-chip-tt {
+    position: relative;
+    display: flex;
+    border: 1px solid rgba(119, 126, 144, 0.15);
+    box-sizing: border-box;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vh 0.4vw;
+    width: 50%;
+}
+
+.productRarity-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.productRarity-stats p {
+    text-align: center;
+}
+
+.productCategory-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.productCategory-cta-container {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5vw;
+    row-gap: 1.5vw;
+}
+
+.productCategory-cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.162) 0%, rgba(143, 135, 202, 0.099) 100%);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    width: 100%;
+    height: 17.33vh;
+}
+
+.productCategory-cta:hover {
+    background: linear-gradient(90deg, #ba04fc 0%, #6700eb 100%);
+    box-shadow: 0px 0px 64px rgba(144, 2, 243, 0.3);
+    cursor: pointer;
+}
+
+.statistics-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics-cta-container {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.statistics-cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(30px) !important;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+}
+
+.small-chart {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.large-chart {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.small-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: space-between;
+}
+
+.large-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vw;
+    max-width: 50%;
+}
+
+.small-line {
+    width: 2px;
+    height: 16px;
+    background: linear-gradient(0deg, #ba04fc 0%, #6700eb 100%);
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.chip-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.large-line {
+    width: 2px;
+    height: 54px;
+    margin-top: 15px;
+    left: 1300px;
+    top: 990px;
+    background: linear-gradient(0deg, #ba04fc 0%, #6700eb 100%);
+    border-radius: 4px;
+}
+
+.statistics-smallcontainer {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.statistics-small {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(30px) !important;
+    border-radius: 20px;
+    padding: 2rem 1rem;
+}
+
+.item-stats {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid rgba(176, 170, 221, 0.2);
+    background: rgba(143, 135, 202, 0.04);
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.item-stats p {
+    margin: 0;
+}
+
+.item-stats strong {
+    margin: 0;
+}
+
+.text-align {
+    margin-left: 12px;
+}
+
+.product-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product-container h2 {
+    text-align: left;
+}
+
+.product-grid {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 1.5rem;
+    cursor: default;
+    max-width: 100%;
+}
+
+.product-card img {
+    max-width: 100%;
+    margin-top: 0.5rem;
+}
+
+.product-chip {
+    position: relative;
+    display: flex;
+    border-radius: 24px;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vh 0.4vw;
+}
+
+.product-stats p {
+    margin: 0;
+}
+
+.line {
+    position: absolute;
+    left: 6%;
+    right: 9.26%;
+    top: 75.85%;
+    bottom: 23.96%;
+    background: rgba(176, 170, 221, 0.1);
+}
+
+.product-details {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(176, 170, 221, 0.2);
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 9vw;
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.162) 0%, rgba(143, 135, 202, 0.099) 100%);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.product-control-panel {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.rarity-filters {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+
+.rarity-filter {
+    border: 1px solid rgba(176, 170, 221, 0.2);
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+}
+
+// Shop Modal
+
+.shop-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 970px;
+    background: linear-gradient(114.28deg, #190445 0%, #370574 100%);
+    backdrop-filter: blur(30px);
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.shop-modal-container h2 {
+    margin: 0;
+}
+
+.modal-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.close-modal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.8vw;
+    width: 2.8vw;
+    border: 1px solid rgba(176, 170, 221, 0.2);
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.modal-instruction {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.12) 0%, rgba(143, 135, 202, 0.102) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.modal-instruction img {
+    width: 80%;
+}
+
+.modal-info p {
+    margin-bottom: 0;
+}
+
+.modal-footer {
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.12) 0%, rgba(143, 135, 202, 0.102) 100%);
+    backdrop-filter: blur(20px);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    margin: -2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.modal-divider {
+    background: rgba(176, 170, 221, 0.15);
+    height: 1px;
+    width: 100%;
+    align-items: center;
+}
+
+.shop-sort-menu-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+    z-index: 10;
+    position: 0%;
+    top: 4rem;
+    background: linear-gradient(91.81deg, rgba(143, 135, 202, 0.12) 0%, rgba(143, 135, 202, 0.102) 100%);
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+}
+
+.divider {
+    width: 2px;
+    height: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: rgba(176, 170, 221, 0.15);
+}
+
+.product-filter-container {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    z-index: 9;
+    padding: 1rem 1.563rem;
+    background: rgba(49, 34, 97, 0.8);
+    box-shadow: 0px 4px 104px rgb(0 0 0 / 25%);
+    -webkit-backdrop-filter: blur(60px);
+    backdrop-filter: blur(60px);
+    border-radius: 25px;
+}
+
+.filter-menu-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-dropdown-section {
+    display: flex;
+    align-items: center;
+}
+
+.category-page-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1300px) and (min-width: 481px) {
+    .shop-modal-container {
+        width: 75vw;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 930px) and (min-width: 481px) {
+    .statistics-cta-container {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .statistics-cta-container {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .statistics-smallcontainer {
+        grid-template-columns: 1fr;
+    }
+
+    .productCategory-cta-container {
+        grid-template-columns: 1fr;
+    }
+
+    .productRarity-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
